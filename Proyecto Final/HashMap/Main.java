@@ -10,15 +10,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Generic type twice
+        // Tipo Generico
         HashMap<Integer, String> map1 = new HashMap<>();
 
-        // Initialization of a HashMap
-        // using Generics
+        // Iniciando HashMap
+        // usando genericos
         HashMap<Integer, String> map2
                 = new HashMap<Integer, String>();
 
-        // Add Elements using put method
+        // Añadir elementos
         map1.put(1, "Manzana");
         map1.put(2, "Pera");
         map1.put(3, "Uva");
@@ -47,13 +47,13 @@ public class Main {
 
         HashMap<String, Integer> map3 = new HashMap<>();
 
-        // Add elements using put method
+        // Añadiendo elementos
         map3.put("Eugenio", 10);
         map3.put("Lalo", 30);
         map3.put("Cristian", 20);
 
-        // Iterate the map using
-        // for-each loop
+        // Iterando
+        // con loop for-each
         for (Map.Entry<String, Integer> e : map3.entrySet()) {
             System.out.println("Key: " + e.getKey()
                     + " Value: " + e.getValue());
